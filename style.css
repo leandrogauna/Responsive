@@ -1,0 +1,71 @@
+nav{
+    background-color: lightseagreen;
+    width: 90%;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.izquierda{
+    background-color: antiquewhite;
+    width: 45%;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+.derecha{
+    position: relative;
+    background-color: azure;
+    width: 45%;
+    height: 500px;
+    float: left;
+}
+
+footer{
+    position: relative;
+    background-color: lightpink;
+    width: 90%;
+    height: 100px;   
+    display: inline-flex;
+    justify-content: center;
+}
+@media screen and (min-width: 230px) and (max-width: 800px){
+
+	body {
+		padding:0;
+		margin:0;
+	}
+	
+	nav {
+		background-color: lightpink;
+    width: 90%;
+    height: 100px;
+    justify-content: center;
+	}
+
+	.izquierda{
+		position: relative;
+    background-color: azure;
+    width: 45%;
+    height: 500px;
+    float: left;
+	}
+    .derecha{
+        background-color: antiquewhite;
+        width: 45%;
+        height: 500px;
+        position: relative;
+        float: left;
+
+
+    }
+	footer {
+		background-color: lightseagreen;
+		width:90%;
+		margin-left:0;
+	}
+
+
+}
